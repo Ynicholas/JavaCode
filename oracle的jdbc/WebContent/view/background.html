@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+	.test{
+		width:100px;
+		height:100px;
+		background-color:blue;
+		border:30px solid transparent;
+		border-image-width:30px;
+  		-webkit-border-image: url(6c27dff8-d411-41cf-ad7d-ffd5e4800743.jpg) 30 30 round; /* Safari 3.1-5 */
+   		-o-border-image: url(6c27dff8-d411-41cf-ad7d-ffd5e4800743.jpg) 30 30 round; /* Opera 11-12.1 */
+  	 	border-image: url(6c27dff8-d411-41cf-ad7d-ffd5e4800743.jpg) 30 30 round;
+  	 	float:left;
+  	 	margin-right:30px;
+  	 	box-reflect:30px;
+  	 	box-shadow:30px;
+	
+	}
+		.test1{
+		width:100px;
+		height:100px;
+		background-color:blue;
+		border:30px solid transparent;
+		border-image-width:30px;
+  		-webkit-border-image: url(6c27dff8-d411-41cf-ad7d-ffd5e4800743.jpg) 30 30 stretch; /* Safari 3.1-5 */
+   		-o-border-image: url(6c27dff8-d411-41cf-ad7d-ffd5e4800743.jpg) 30 30 stretch; /* Opera 11-12.1 */
+  	 	border-image: url(6c27dff8-d411-41cf-ad7d-ffd5e4800743.jpg) 30 30 stretch;
+  	 	float:left;
+  	 	margin-right:30px;
+	
+	}
+		.test2{
+		width:100px;
+		height:100px;
+		background-color:blue;
+  	 	float:left;
+  	 	margin-right:30px;
+  	 	box-shadow:0px 0px  10px 5px #aaa inset;
+	
+	}
+	
+	.out{
+		box-shadow:0px 0px  10px 5px #aaa;
+	}
+
+	.in{
+		box-shadow:0px 0px 10px 5px #aaa inset;
+	}
+</style>
+<body>
+	<div class="test">
+		我的test
+	</div>
+	<div class="test1">
+		我的test
+	</div>
+		<div class="test2">
+		我的test
+	</div>
+</body>
+</html>

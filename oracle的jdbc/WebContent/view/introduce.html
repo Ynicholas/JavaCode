@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+	body{
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:12px;
+		margin:0px auto;
+		height:auto;
+		width:760px;
+		border:1px solid #006633;
+	}
+	#header{
+		height:100px;
+		width:760px;
+		background-image:url(web_head.jpg);
+		background-repeat:no-repeat;
+		 margin:0px 0px 3px 0px;
+	}
+	#nav{/*定义一个导航栏的长盒子*/	    
+		height:25px;
+		width:760px;
+		font-size:14px;
+		list-style-type:none;/*让nav这个大盒子下面的小盒子LI列表样式不显示,这对于标准浏览器很重要*/ 
+	}
+	#nav li{
+		float:left;/*让LI这些小盒子左对齐*/ 
+	}
+	#nav li a{
+	    color:#000000;
+	    text-decoration:none;/*让LI盒子里面的链接样式没有下滑线*/ 
+	    padding-top:4px;
+	    display:block;/*让LI里面的链接块状呈现，就像一个按钮，而不必一定要点中链接文字才起作用*/ 
+	    width:97px;
+	    height:22px;
+	    text-align:center;
+	    background-color:#009966;
+	    margin-left:2px;
+	}
+	#nav li a:hover{
+	    background-color:#006633;/*鼠标移到链接盒子上面改变盒子背景色*/ 
+	    color:#FFFFFF;
+	}
+	#content{
+		    height:auto;		    width:740px;
+		    line-height:24px;    padding:10px;
+		}
+		#content p{
+		    text-indent:32px;
+		}
+		#content h3{
+		    font-size:16px;	   margin:10px;
+		}
+	#footer{
+		    height:50px;	
+       		width:740px;
+		    line-height:32px;
+		    text-align:center;
+		    background-color:#009966;
+		    padding:10px;
+	}
+	*{
+	    margin:0px;
+	    padding:0px;
+	}
+	
+</style>
+<body>
+	<div id=“header”></div>
+	<ul id="nav">
+		<li><a href="#">首 页</a></li>
+		<li><a href="#">文 章</a></li>
+		<li><a href="#">相册</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">论 坛</a></li>
+		<li><a href="#">帮助</a></li>
+	</ul>
+	<div id=“content”>
+		<h3>前言</h3>
+		<p>第一段内容（插入大量文字）</p>
+		<h3>理解CSS盒子模式</h3>
+		<p>第二段内容（插入大量文字） </p>
+		</div><div id="footer">
+		<p>关于| 广告服务 | 招聘 | 客服中心 | Q Q留言 | 网站管理 | 会员登录 | 购物车</p><p>Copyright ©2006 - 2008 All Rights Reserved</p>
+	</div>
+</body>
+</html>
